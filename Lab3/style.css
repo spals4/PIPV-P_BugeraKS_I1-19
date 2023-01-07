@@ -1,0 +1,247 @@
+@font-face {
+  font-family: 'Graphik LCG';
+  src: url('../fonts/GraphikLCG-Medium.woff2') format('woff2'),
+    url('../fonts/GraphikLCG-Medium.woff') format('woff');
+  font-display: swap;
+  font-weight: 500;
+  font-style: normal;
+}
+
+@font-face {
+  font-family: 'Gilroy';
+  src: url('../fonts/Gilroy-Regular.woff2') format('woff2'),
+    url('../fonts/Gilroy-Regular.woff') format('woff');
+  font-display: swap;
+  font-weight: normal;
+  font-style: normal;
+}
+
+@font-face {
+  font-family: 'Gilroy';
+  src: url('../fonts/Gilroy-ExtraBold.woff2') format('woff2'),
+    url('../fonts/Gilroy-ExtraBold.woff') format('woff');
+  font-display: swap;
+  font-weight: 800;
+  font-style: normal;
+}
+
+@font-face {
+  font-family: 'Gilroy';
+  src: url('../fonts/Gilroy-Medium.woff2') format('woff2'),
+    url('../fonts/Gilroy-Medium.woff') format('woff');
+  font-display: swap;
+  font-weight: 500;
+  font-style: normal;
+}
+
+* {
+  box-sizing: border-box;
+}
+
+body {
+  margin: 0;
+  font-family: 'Gilroy', sans-serif;
+}
+
+a {
+  color: inherit;
+  text-decoration: none;
+}
+
+.container h2
+{
+  padding-left: 180px;
+  font-size: 36px;
+  color: #2f1ce4;
+  height: 100px;
+  bottom: 25px;
+}
+
+ol
+{
+  padding-left: 200px;
+  font-size: 18px;
+}
+
+ul
+{
+  padding-left: 200px;
+  font-size: 18px;
+}
+
+p
+{
+  padding-left: 180px;
+  bottom: 20px;
+}
+
+table tr
+{
+  height: 100px;
+  border: 1px white;
+  border-collapse: collapse;
+}
+
+table tr, table td, table th
+{
+  padding: 5px;
+}
+
+figure
+{
+  padding-left: 200px;
+  text-align: center;
+  box-sizing: border-box;
+  height: 50px;
+  bottom: 50px;
+}
+
+.Grid h5
+{
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: space-evenly;
+}
+
+.main-content{
+  display: flex;
+  flex-direction: column;
+  justify-content:center;
+  align-items: center;
+  height: 100vh;
+  background-color: #222020;
+}
+
+.head {
+color:  white;
+font-family: 'Graphik LCG', sans-serif;
+margin-bottom: 30px;
+}
+
+.DownloadButt{
+  display: flex;
+  flex-direction: column;
+  padding: 15px;
+  color: white;
+  background-color: #2f1ce4;
+  border: 3px #2f1ce4;
+}
+
+.Incl{
+  display: flex;
+  flex-direction: column;
+  padding: 20px;
+  color: white;
+  border: 3px white;
+}
+
+.cont
+{
+  width: 1200PX;
+  margin: 0 auto;
+  padding-top: 30px;
+  padding-bottom: 30px;
+  background-color: #222020
+}
+
+.container{
+  width: 1170px;
+  margin: 0 auto;
+  padding-top: 30px;
+  padding-bottom: 30px;
+  background-color: #222020
+}
+
+.Back{
+  color: #2f1ce4;
+}
+
+.head2{
+  margin-top: 100px;
+  padding-left: 100px;
+  font-size: 48px;
+  color:  #222020;
+}
+
+.img
+{
+  text-align: center;
+}
+
+.header {
+  width: 1200px;
+  margin: 0 auto;
+}
+
+.modules-page__h1 {
+  margin-top: 80px;
+  margin-bottom: 80px;
+  padding-left: 20px;
+  font-size: 48px;
+  color: #222020;
+}
+
+.modules-page__h2 {
+  font-size: 36px;
+  color: #5e52c9;
+}
+
+.modules-page__program {
+  list-style-type: none;
+  margin-bottom: 15px;
+  padding-left: 0;
+}
+
+.modules-page__number {
+  color: #eaeaea;
+  font-size: 60px;
+  position: absolute;
+  bottom: 7px;
+  right: 10px;
+  margin: 0;
+}
+
+.modules-page__program li {
+  margin-bottom: 15px;
+}
+
+.card {
+  width: 420px;
+  height: 500px;
+  padding: 0 50px;
+  margin-bottom: 60px;
+  box-shadow: 0 0 20px #555;
+  position: relative;
+}
+
+.card img {
+  width: 420px;
+  height: 174px;
+  margin-left: -50px;
+}
+
+.module-button a {
+  border: 2px solid #5e52c9;
+  padding: 15px 30px;
+  border-radius: 5px;
+  color: #5e52c9;
+}
+
+.module-button {
+  width: 100%;
+  text-align: center;
+}
+
+.contain {
+  width: 900px;
+  margin: 0 auto;
+  padding-top: 30px;
+  padding-bottom: 30px;
+}
+
+.contain_modules {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-between;
+}
